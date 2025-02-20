@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick= "DisplayIt('+')" class="operators">+</button>
+            <button onclick= "DisplayIt('7')">7</button>
+            <button onclick= "DisplayIt('8')">8</button>
+            <button onclick= "DisplayIt('9')">9</button> 
+            <button onclick= "DisplayIt('-')" class="operators">-</button>
+            <button onclick= "DisplayIt('4')">4</button>
+            <button onclick= "DisplayIt('5')">5</button>
+            <button onclick= "DisplayIt('6')">6</button>
+            <button onclick= "DisplayIt('*')" class="operators">*</button>
+            <button onclick= "DisplayIt('1')">1</button>
+            <button onclick= "DisplayIt('2')">2</button>
+            <button onclick= "DisplayIt('3')">3</button>
+            <button onclick= "DisplayIt('/')" class="operators">/</button>
+            <button onclick= "DisplayIt('0')">0</button>
+            <button onclick= "DisplayIt('.')" class="operators">.</button>
+            <button onclick= "calc()" class="operators">=</button>
+            <button onclick= "cleardisplay()" class="operators">C</button>
+        </div>
+    </div>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <footer>&copy; 2025 Designed by Abiram</footer>
+</body>
+</html>
